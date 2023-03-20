@@ -1,0 +1,126 @@
+.card__produto {
+
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em 0;
+    padding: 0.5em;
+    width: 130px;
+    height: 220px;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 0.5em;
+    text-align: center;
+    align-items: center;
+}
+.botoes__compra {
+    display: flex;
+    background: var(--preto);
+    text-decoration: none;
+    list-style: none;
+    height: 7%;
+    padding: 0.5em;
+    font-size: 10px;
+    border-radius: 4px;
+}
+.botoes__item__compra {
+    margin: 0 0.5em;
+}
+
+
+
+.botoes__ancora__compra {
+    background-color: var(--laranja);
+    height: 6%;
+    padding: 1em 2em;
+    border-radius: 4px;
+    color: var(--branco);
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 12px;
+    display: none;
+}
+
+.botoes__item__texto__compra {
+    padding: 0.3em 0 0;
+    color: var(--branco);
+}
+
+/*inf do produto*/
+
+.card__container__titulo {
+    color: var(--azul);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0.5em 0 0.5em;
+}
+
+.card__container__texto {
+    font-size: 10px;
+}
+
+.logo__produto {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .botoes__ancora__compra {
+        display: block;
+        font-size: 14px;
+        padding: 1em 0.7em;
+    }
+
+    .card__produto {
+        width: 325px;
+        height: 195px;
+        padding: 1em;
+    }
+
+    .card__container {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: right;
+        justify-content: space-between;
+    }
+
+    .card__compra {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .botoes__compra {
+        padding: 1em 0.7em;
+    }
+
+    .logo__produto {
+        height: 130px;
+        width: 100px;
+    }
+
+    .card__container__texto {
+        font-size: 14px;
+        width: 180px;
+    }
+
+    .card__container__titulo {
+        font-size: 20px;
+        margin-top: -10px;
+        padding: 0 0 0.3em 0;
+    }
+
+    .botoes__item__texto__compra {
+        font-size: 14px;
+        
+    }
+
+    .sacola__compra {
+        height: 20px;
+        width: 20px;
+    }
+
+}
